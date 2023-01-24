@@ -20,7 +20,7 @@ body {
 /* ***** Utils part starts ***** */
 
 section {
-  margin: 4rem 2rem;
+  margin: 4rem 0rem;
 }
 
 img {
@@ -62,14 +62,13 @@ img {
 .section-top--des h1 {
   font-size: 6rem;
   font-weight: 700;
-  line-height: 1.2;
   letter-spacing: -2px;
   color: #575757;
 }
 
 .section-top--des p {
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 3.2rem;
   color: #828282;
   margin: 3rem 0;
 }
@@ -80,3 +79,48 @@ img {
 }
 
 /* ***** Section Top ends ***** */
+
+/* ***** Section About starts ***** */
+
+.section-about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-image: url(images/shapes/7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.section-about--des {
+  width: 50%;
+  padding: 0 5rem;
+}
+
+.section-about--des h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #707070;
+}
+
+.section-about--des p {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  color: #18191f;
+}
+
+.section-about--img {
+  width: 50%;
+  padding: 2rem 5rem;
+}
+
+.section-about--img img {
+  height: 60rem;
+}
+
+.section-about--btn {
+  padding: 2.4rem 3.2rem;
+}
+/* ***** Section About ends ***** */
